@@ -4,7 +4,7 @@ from groverMazeLearner import GroverMazeLearner
 # test
 if __name__ == "__main__":
     # choose env
-    envtest = gym.make("FrozenLake-v0", is_slippery=False)
+    envtest = gym.make("FrozenLake-v1", is_slippery=False)
     # init learner
     Elliot = GroverMazeLearner(envtest)
     # good hyperparms (hand-tuned)
